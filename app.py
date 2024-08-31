@@ -144,3 +144,10 @@ def txt2html(text):
     for para in paragraphs:
         output += "<p>" + para + "</p>"
     return output
+
+
+if __name__ == "__main__":
+    # Make it avalaible to the local network.
+    app.run(host="0.0.0.0")
+    # Reload with changes, disable for the final version.
+    app.run(debug=True)
