@@ -1,4 +1,15 @@
-.vscode/*
-__pycache__/*
+# Flask project gi boilerplate
 
-*.code-workspace
+.idea/
+.vscode/
+.venv*/
+venv*/
+__pycache__/
+dist/
+.coverage*
+htmlcov/
+.tox/
+docs/_build/
+
+# Dont upload served files
+/files
