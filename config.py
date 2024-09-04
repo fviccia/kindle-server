@@ -12,7 +12,7 @@ FILE_TYPES_ALLOWED = ("html", "txt", "md", "pdf", "azw3", "azw", "prc", "mobi")
 READ_MODE_FILES_COMPATIBLE = ("html", "txt", "md")
 
 # Path where the webpages are saved
-SAVED_WEBPAGES_DIR = "./files/"
+SAVED_WEBPAGES_DIR = "/home/franco/Documents/files/"
 
 # Number of files to show per page
 PER_PAGE = 10
